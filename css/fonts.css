@@ -1,0 +1,20 @@
+@font-face{
+	font-family:abeezee;
+	src:url(../text/abeezee/ABeeZee-Regular.otf);			
+}
+@font-face{
+	font-family:bellota;
+	src:url(../text/bellota/Bellota-Regular.otf);
+}
+@font-face{
+	font-family:signika;
+	src:url(../text/signika/Signika-Bold.otf);
+}
+@font-face{
+	font-family:barOne;
+	src:url(../text/signika/Signika-Regular.otf);
+}
+@font-face{
+	font-family:muli;
+	src:url(../text/muli/Muli.ttf);
+}

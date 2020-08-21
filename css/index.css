@@ -1,0 +1,95 @@
+.carousel-inner > .item > img{ margin: auto; }
+		
+		.container-head{
+			font-family:abeezee;
+			letter-spacing:2px;
+		}
+		
+		.outer-box{
+			padding-left:2%;
+			padding-right:2%;
+		}
+		
+		.box{
+			background-color:#ffffff;
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+			padding:20px;
+		}
+		
+		.category-item img{ height:50px; }
+		p.cap{font-family:abeezee;color:#1cb01c;font-size:18px;letter-spacing:2px;}
+		.category-item{padding:10px;}
+		
+		.panel-default{			
+			max-width:300px;
+			height:300px;
+			max-height:350px;
+			margin:auto;
+		}
+		.newly_add_img{
+			height:150px;
+			width:150px;
+			margin:auto;
+		}
+		@media only screen and (max-width: 400px) {
+			.newly_add_img{
+				height:100px;
+				width:100px;
+				margin:auto;
+			}
+		}
+				
+		.showDiscount{
+			font-family:muli;
+			text-align:center;
+			color:#ffffff;
+			position:absolute;
+			z-index:10;
+			margin-top:0px;	
+			margin-left:0px;	
+			background-color:#1cb01c;
+			padding:10px;
+			opacity:0.9;
+			border-top-right-radius:50px;
+			border-bottom-right-radius:50px;
+			border-top-left-radius:5px;
+			box-shadow: 0.5px 1px 3px rgba(0, 0, 0, 0.8);
+		}
+		
+		.p_name{font-family:abeezee;letter-spacing:1px;text-align:center;color:#1cb01c;word-wrap:break-word;}
+		.p_cost{font-family:muli;text-align:center;color:#000;word-wrap:break-word;}
+		.brand{font-family:muli;text-align:center;color:#1cb01c;word-wrap:break-word;}
+		.brand-name{color:#000000;word-wrap:break-word;}
+				
+		/*new-products section css starts*/
+		div#new-products{			
+			letter-spacing:1px;			
+			background-color:#f2f2f2;
+			padding-left:2%;
+			padding-right:2%;
+		}
+		
+		div#new-products div.inner{
+			padding-bottom:15px;
+			background-color:#ffffff;			
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+		}																			
+		/*new-products section css ends*/
+		
+		
+		/*footer css starts*/
+		footer {
+			background-color: #ffffff;
+			color: #1cb01c;
+			padding: 32px;	
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);	
+		}
+				
+		
+		footer h4, footer h5 a {
+			color: #1cb01c;
+			font-family:muli;
+		}
+
+		footer a:hover, a:visited, a:link{color: #1cb01c;text-decoration:none;}			
+		/*footer css ends*/

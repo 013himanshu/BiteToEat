@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 767px) {
+	.searchbox{		
+		width: 100% !important;
+		margin-left:0px !important;
+	}
+	.searchbtn{
+		height: 44px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	#myNavbar {		
+		float: right;
+	}	
+}
+
+
+.searchbox{
+	display: inline-block;
+	height: 50px;
+    margin-top: 7px;
+	margin-left:25px;   
+    padding: 0px;
+    vertical-align: top;
+    width: 20%;
+}
+.searchform{
+	   border-radius: 0 2px 2px 0;
+    
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.serachfield{
+	   display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.serachinput{
+	 border: 0 none;
+    border-radius: 2px 0 0 2px !important;
+    font-size: 15px !important;
+    outline: 0 none !important;
+    padding: 11px 16px;
+    width: 100%;
+	color:#1cb01c;
+	font-family:abeezee;
+}
+.serachinput:focus{
+	border: 0 none !important;
+}
+.searchbtn{
+	background-color: #ffe11b;
+    border: 1px solid #ffe11b;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    cursor: pointer;
+    height: 43px;
+    padding: 14px 0;
+    width: 100%;
+}
+
+.nopadding{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.searchbtn .svgbtn{
+	fill: #212121;
+	}
+
+.navbar-collapse.collapse{
+/*	display: inline-block !important;
+*/}

@@ -1,0 +1,144 @@
+		body{margin-right:0px !important;padding-right:0px !important}
+		/*Navbar Css Starts*/
+		.navbar{			
+			margin-bottom: 0;
+			border-radius:0px;
+			border:0;
+			background-color:#1cb01c;
+			position:relative;
+			padding:1px;															
+		}
+		
+		.navbar .navbar-nav li:last-child{padding-left:40px;padding-right:30px;border-left:2px dashed #ffffff;}
+		
+		#blogin{border:none;}
+		
+		.navbar .navbar-nav li a{
+			color:#ffffff !important;
+			background-color:#1cb01c !important;
+			letter-spacing: 2px;
+			font-family:barOne;
+			font-size:18px;
+			font-weight:bolder;
+			cursor:pointer;
+		}
+		
+		.navbar .navbar-nav li a:hover{
+			color:#000000 !important;
+		}
+		
+		.navbar-nav li.active a{
+			color: #000000 !important;
+			background-color: #1cb01c !important;
+		}
+		
+		.navbar-default .navbar-toggle {
+			border-color: transparent;
+			background-color:#ffffff !important;
+		}
+		
+		.navbar-default .navbar-toggle .icon-bar{background-color:#1cb01c !important;}
+		
+		ul.dropdown-menu{
+			border:0;			
+			background-color:#1cb01c;			
+			box-shadow: 0px 5px 5px #1cb01c;
+			padding-left:0px !important;
+		}
+		
+		ul.dropdown-menu li{padding:10px;padding-left:0px !important;}
+
+		.open .dropdown-menu li a{
+			letter-spacing:3px;font-size:16px !important;									
+		}	
+
+		#myac{width:200px;}
+		
+		@media only screen and (max-width: 767px) {
+			.navbar .navbar-nav li a:hover{
+				color:#ffffff !important;
+			}
+			.navbar .navbar-nav li a:active{
+				color:#000000 !important;
+			}
+			.navbar .navbar-nav li:last-child{padding-left:0px;border-left:none;}
+		}	
+		/*Navbar Css ends*/	
+	
+		/*Slider Css starts*/
+		.carousel-inner img { 	
+			width: 100%; 
+			height: auto;
+		}
+		div#myCarousel{z-index:4;}
+		@media only screen and (max-width: 600px) {
+			.carousel-caption {
+				display: none;
+			}
+		}
+		/*Slider Css ends*/
+		
+		/*services section css starts*/
+		div#products{
+			background-color:#1cb01c;
+			color:#ffffff;
+			text-align:center;			
+			letter-spacing:1px;
+			margin-bottom:0;
+		}
+		
+		div#products h1{font-family:signika;font-size:65px;padding-bottom:50px;padding-left:20px;padding-right:20px;}
+		
+		div#products h3{font-size:30px;font-family:abeezee;}
+		
+		div#products p{padding-left:20px;padding-right:20px;font-size:25px;font-family:bellota;letter-spacing:1px;}
+		
+		div#products p.quote{padding-left:20px;padding-right:20px;font-size:16px;}
+		/*services section css ends*/
+		
+		/*Reviews section css starts*/
+		div#reviews{
+			background-color:#ffffff;
+			color:#1cb01c;
+			text-align:center;			
+			letter-spacing:1px;
+			margin-bottom:0;	
+			height:450px;	
+		}
+		
+		div#reviews h1{font-family:signika;font-size:65px;padding-bottom:50px;}
+		
+		div#reviews p{padding-left:30px;padding-right:20px;padding-bottom:20px;font-size:20px;font-family:bellota;letter-spacing:1px;}
+		/*Reviews section css ends*/
+		
+		/*About Section Css starts*/
+		div#about{
+			background-color:#1cb01c;
+			color:#ffffff;
+			text-align:center;			
+			letter-spacing:1px;
+			margin-bottom:0;
+		}
+		
+		div#about h1{font-family:signika;font-size:65px;}				
+		
+		div#about p{padding-left:20px;padding-right:20px;font-size:25px;font-family:bellota;letter-spacing:1px;}
+		/*About Section Css ends*/
+		
+		/*footer css starts*/
+		footer {
+			background-color: #ffffff;
+			color: #1cb01c;
+			padding: 32px;			
+		}
+				
+		
+		footer h4, footer h5 a {
+			color: #1cb01c;
+			font-family:muli;
+		}
+
+		footer a:hover, a:visited, a:link{color: #1cb01c;text-decoration:none;}			
+		/*footer css ends*/				
+		
+		

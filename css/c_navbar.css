@@ -1,0 +1,76 @@
+/*Navbar Css Starts*/
+		.navbar{			
+			margin-bottom: 0;
+			border-radius:0px;
+			border:0;
+			background-color:#1cb01c;
+			position:relative;
+			padding:15px;															
+		}
+		
+		.navbar .navbar-nav li a{
+			color:#ffffff !important;
+			background-color:transparent !important;
+			letter-spacing: 2px;
+			font-family:barOne;
+			font-size:18px;
+			font-weight:bolder;
+			cursor:pointer;
+		}
+		
+		.navbar .navbar-nav li a:hover{
+			color:#000000 !important;
+		}
+		
+		.navbar-nav li.active a{
+			color: #000000 !important;
+			background-color: transparent !important;
+		}
+		
+		.navbar-default .navbar-toggle {
+			border-color: transparent;
+			background-color:#ffffff !important;
+		}
+		
+		.navbar-default .navbar-toggle .icon-bar{background-color:#1cb01c !important;}
+		
+		ul.dropdown-menu{
+			border:0;
+			padding:3px;
+			background-color:#1cb01c;			
+			padding:2px;
+			box-shadow: 0px 5px 5px #1cb01c;
+		}
+		
+		ul.dropdown-menu li{padding:10px;padding-left:0px !important;}
+
+		.open .dropdown-menu li a{
+			letter-spacing:3px;font-size:16px !important;									
+		}
+		
+		ul#myac{width:200px;}
+
+		@media only screen and (max-width: 767px) {
+			.navbar .navbar-nav li a:hover{
+				color:#ffffff !important;
+			}
+			.navbar .navbar-nav li a:active{
+				color:#000000 !important;
+			}
+			.navbar .navbar-nav li:last-child{padding-left:0px;border-left:none;}
+		}
+		/*Navbar Css ends*/
+		
+		/*logo css starts*/
+		.logo{
+			height:70px;
+			margin-top:-23px;
+			margin-left:-15px;
+		}
+		@media only screen and (max-width: 767px){
+			.logo{
+				height:50px;	
+				margin-top:-15px;	
+			}
+		}
+		/*logo css ends*/
